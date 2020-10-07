@@ -17,9 +17,9 @@ namespace LemonadeStand
         //constructor
 
         //methods
-        public void SellItem()
+        public void SellItem(ItemFactory itemFactory)
         {
-
+            
         }
 
 

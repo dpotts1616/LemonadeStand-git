@@ -15,9 +15,19 @@ namespace LemonadeStand
         double sugarTolerance;
 
         //constructor
+        public Customer()
+        {
+            priceTolerance = GenerateTolerance();
+            weatherTolerance = GenerateTolerance();
+            lemonTolerance = GenerateTolerance();
+            sugarTolerance = GenerateTolerance();
+        }
 
         //methods
-
+        public int GenerateTolerance()
+        {
+            return Program.GetRandomNumber(0, 20);
+        }
         //make decision
         //bring in weather, recipe
         public void MakeDecision(Weather weather, Recipe recipe)

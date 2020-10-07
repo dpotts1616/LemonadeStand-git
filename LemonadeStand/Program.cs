@@ -11,5 +11,11 @@ namespace LemonadeStand
         static void Main(string[] args)
         {
         }
+
+        public static int GetRandomNumber(int min, int max)
+        {
+            Random rand = new Random();
+            return rand.Next(min, max);
+        }
     }
 }
