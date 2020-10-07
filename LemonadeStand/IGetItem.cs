@@ -6,12 +6,8 @@ using System.Threading.Tasks;
 
 namespace LemonadeStand
 {
-    class Lemons:Item
+    interface IGetItem
     {
-        //member variables
-
-        //constructor
-
-        //methods
+        Item GetPurchaseItem(int input);
     }
 }

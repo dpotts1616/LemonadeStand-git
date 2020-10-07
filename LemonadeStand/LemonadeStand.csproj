@@ -48,9 +48,11 @@
     <Compile Include="Day.cs" />
     <Compile Include="Game.cs" />
     <Compile Include="Ice.cs" />
+    <Compile Include="IGetItem.cs" />
     <Compile Include="Inventory.cs" />
     <Compile Include="Item.cs" />
-    <Compile Include="Lemons.cs" />
+    <Compile Include="ItemFactory.cs" />
+    <Compile Include="Lemon.cs" />
     <Compile Include="Pitcher.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="Program.cs" />

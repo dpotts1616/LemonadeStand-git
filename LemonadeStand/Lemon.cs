@@ -6,14 +6,9 @@ using System.Threading.Tasks;
 
 namespace LemonadeStand
 {
-    class Inventory
+    class Lemon:Item
     {
         //member variables
-        List<Lemon> lemons;
-        List<Ice> iceCubes;
-        List<Cup> cups;
-        List<Sugar> sugarCubes;
-
 
         //constructor
 

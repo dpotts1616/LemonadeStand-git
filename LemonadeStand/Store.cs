@@ -8,10 +8,19 @@ namespace LemonadeStand
 {
     class Store
     {
+        //member variables
         double pricePerLemon;
         double pricePerSugarCube;
         double pricePerIceCube;
         double pricePerCup;
+
+        //constructor
+
+        //methods
+        public void SellItem()
+        {
+
+        }
 
 
     }

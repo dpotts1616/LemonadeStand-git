@@ -19,5 +19,13 @@ namespace LemonadeStand
         //methods
 
         //make decision
+        //bring in weather, recipe
+        public void MakeDecision(Weather weather, Recipe recipe)
+        {
+            //price tolernce vs price
+            //weather tolerance vs weather
+            //lemon vs lemons
+            //sugar vs sugarcubes
+        }
     }
 }
